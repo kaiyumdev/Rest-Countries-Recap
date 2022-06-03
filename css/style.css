@@ -1,0 +1,17 @@
+.title{
+    text-align: center;
+}
+.countries img{
+    width:200px;
+}
+.country{
+    border:3px solid goldenrod;
+    background-color:aquamarine;
+    padding:20px;
+    border-radius:20px;
+}
+.countries{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:20px;
+}
